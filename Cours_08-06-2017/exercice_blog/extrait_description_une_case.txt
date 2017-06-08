@@ -1,0 +1,24 @@
+UC001: 	Se connecter
+		
+		acteurs
+		--------------
+			administration, membre, ...
+
+		Pré-conditions
+		---------------	
+			Aller à la page formulaire de connexion
+
+		Scénario nominal : 
+		---------------
+			1. saisir les identifiants
+			2. traitement OK, le systeme redirige vers l'espace
+
+		Scénario alternatif : 
+		---------------------	
+			2a. Authentification incorrecte -> retour point 1 avec message  KO
+			2b. Utilisateur non reconnu -> retour point 1 avec message informatif
+
+		Scénario exepction : 
+		--------------------	
+
+
