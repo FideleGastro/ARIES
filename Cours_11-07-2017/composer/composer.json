@@ -1,0 +1,23 @@
+{
+    "name": "test/rafix",
+    "description": "test",
+    "authors": [
+        {
+            "name": "FideleGastro",
+            "email": "gomes.raphael.31@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "mpdf/mpdf": "^6.1",
+        "fzaninotto/faker": "^1.6"
+    },
+    "autoload":{
+        "files":[
+            "lib/helpers/debug.php"
+        ],
+        "psr-4":{
+            "lib\\" : "lib"
+        }    
+    }
+}

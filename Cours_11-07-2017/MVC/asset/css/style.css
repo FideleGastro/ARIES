@@ -1,0 +1,19 @@
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 70px;
+	background: #333;
+}
+
+.navbar h3{
+	color: white;
+}
+
+.navbar ul{
+	display: flex;
+}
+
+.navbar a{
+	color: white;
+}
