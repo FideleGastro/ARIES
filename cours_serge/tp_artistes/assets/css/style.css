@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+dl{
+	width: 200px;
+	margin: 25px auto;
+}
+
+dt{
+	background: #ccc;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+dd img{ display: table;}
+
+dd figcaption {
+	height: 40px; line-height: 40px;
+	text-align: center;
+	background: #777;
+	color:white;
+}
+
+dd {
+	overflow: hidden;
+	transition: height 0.4s ease-in;
+}
+
+dd.open { height: 240px; }
+dd:not(.open) {	height: 0; }
+
+
+
