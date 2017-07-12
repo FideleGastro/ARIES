@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FINENAME} !-d
+RewriteCond %{REQUEST_FINENAME} !-f
+RewriteCond $1 !^(index.php|asset)
+RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
