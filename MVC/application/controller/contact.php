@@ -13,9 +13,10 @@
 
 			$contact = new Contact_model();
 
-			vd($contact->all());
+			//vd($contact->all());
 			$this->data = [
-				"titre" => "Contact"
+				"titre" => "Contact",
+				"contacts" => $contact->all()
 			];		
 			$this->view('public', 'contact_view', $this->data);
 		}
