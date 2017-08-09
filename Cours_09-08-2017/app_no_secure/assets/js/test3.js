@@ -1,0 +1,1 @@
+alert('le script 3: je me charge')

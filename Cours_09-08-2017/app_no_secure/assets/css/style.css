@@ -1,0 +1,13 @@
+body{
+	font-family: sans-serif;;
+}
+
+ul  {
+	list-style: none;
+    color:white;
+}
+
+
+textarea {
+    height: 200px!important;
+}

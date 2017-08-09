@@ -1,0 +1,13 @@
+{
+	"require":{
+	},
+	"autoload":{
+		"files":[
+			"core/helpers/debug.php"
+		],
+		"psr-4":{
+			"core\\":"core",
+			"auth\\":"core/auth"
+		}
+	}
+}
