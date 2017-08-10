@@ -1,4 +1,2 @@
-first-project-aries
-===================
 
-A Symfony project created on August 10, 2017, 11:04 am.
+![](https://files.slack.com/files-pri/T5520KWHJ-F6LQH3EG4/pasted_image_at_2017_08_10_12_08_pm.png)
